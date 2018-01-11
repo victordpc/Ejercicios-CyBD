@@ -1,0 +1,13 @@
+Pig
+
+Pig alcanza un nivel de abstracción para procesar grandes cantidades de datasets, de forma mucho mas rápida que desarrollando las tareas con un lenguaje de programación al uso, estas tareas se traducen en actividades MapReduce de forma transparente al usuario.
+El principal inconveniente es una perdida de rendimiento aproximada del 50%
+
+Utilizando Pig en el ejercicio 1.4 habríamos conseguido utilizar mucho menos tiempo para su desarrollo, aunque las tareas que se ejecutarían serían muy lentas.
+
+Hive.
+
+Hive consiste en un lenguajes de query basado en SQL que provee una forma rapida de desarrollar las tareas. Hive transforma automaticamnete cada consulta en uno o varios trabajos MapReduce.
+
+Si lo usamos en el ejercicio 1.4 habría sido mas sencillo desarrollar la tarea necesaria para la función Reduce pero esto conllevaría una pérdida de rendimiento.
+
